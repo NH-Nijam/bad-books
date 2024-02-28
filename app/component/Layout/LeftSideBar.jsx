@@ -9,7 +9,7 @@ import { Logout } from '@mui/icons-material';
 
 const LeftSideBar = () => {
     return (
-        <div className='h-screen top-0 left-0 sticky overflow-auto px-10 py-6 flex flex-col gap-6 max-lg:hidden custom-scrollbar border w-[25%]'>
+        <div className='h-screen top-0 left-0 sticky overflow-auto px-10 py-6 flex flex-col gap-6 max-lg:hidden custom-scrollbar  w-[25%]'>
             <Link href="/" className='w-full flex justify-center'>
                 <Image src='/images/logo.png' width={200} height={200} alt='Logo' />
             </Link>

@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 const BottomBar = () => {
     const pathName = usePathname();
     return (
-        <div className='flex sticky bottom-0 z-20 w-full bg-dark-1 px-6 py-3 items-center justify-between lg:hidden'>
+        <div className='flex sticky bottom-0 z-40 w-full bg-[#34303E] rounded-t-3xl shadow-lg shadow-white  px-6 py-3 items-center justify-between lg:hidden'>
             {
                 sidebarLinks.map((link) => {
                     const isActive = pathName === link.route;
